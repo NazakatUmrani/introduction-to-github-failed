@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/design-cpu.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "cpu cool technology image";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Number System Converter with Big Numbers Handling GUI Qt",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is a project I have worked on in the past, Now I have converted it into GUI. This is a number system converter, with some extra powers of big numbers handling, I have made some functions that are able to perform arithmetic operations on big numbers, Which means you can perform any conversion, and there is no limit to conversions.",
+    url: "https://github.com/NazakatUmrani/Number-System-Converter-with-Big-Numbers-Handling-GUI-Qt",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Simple Notepad GUI Qt",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a GUI Notepad app made in c++ with the help of the Qt Framework, I am currently working on it and adding some fruitful features. This project is for my practice on Qt, as I have started learning the Qt framework for GUI in c++.",
+    url: "https://github.com/NazakatUmrani/Simple-Notepad-GUI-Qt",
   },
   {
-    title: "My Resume Site",
+    title: "Guessing Game Qt",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A guessing game, which generates a randome sequence of highlights, which follows highlighting circles with showing emoji, after highlight has completed, a user now need to repeat that highlight, after succesfull input from user, this game verifies the user's entered sequence with computer's, and if user entered correct then level is increased and +1 circles are highlighted than previous one, and again user enters sequence until and unless user enters wrong sequence.",
+    url: "https://github.com/nazakatumrani/guessing-game-qt",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Guessing Game in Java",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a guessing game made in Java, which I made while doing a course on Coursera.",
+    url: "https://github.com/nazakatumrani/guessing-game-in-java",
   },
 ];
 
